@@ -1,0 +1,11 @@
+# JSON is a universal data format. All the programming languages can understand JSON.
+{
+    "title": "student",
+    "description": "Schema about students",
+    "type": "object",
+    "properties": {
+        "name":"string",
+        "age":"integer"
+    },
+    "required": ["name"]
+}
